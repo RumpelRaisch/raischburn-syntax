@@ -1,7 +1,7 @@
 # Raischburn Syntax
 
 ## php
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/RumpelRaisch/raischburn-syntax/master/php.png)
 
 ## js
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/RumpelRaisch/raischburn-syntax/master/js.png)
