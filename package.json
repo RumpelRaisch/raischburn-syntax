@@ -1,0 +1,17 @@
+{
+  "name": "raischburn-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A darker Zenburn like Syntax for Atom.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "zen",
+    "zenburn"
+  ],
+  "repository": "https://github.com/atom/raischburn-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

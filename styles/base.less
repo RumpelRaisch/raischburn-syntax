@@ -1,0 +1,325 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  background-color: #282828;
+}
+
+.syntax--comment {
+  font-style: italic;
+  color: #7f9f7f;
+}
+
+.syntax--meta.syntax--preprocessor.syntax--c {
+  color: #FD8003;
+}
+
+.syntax--keyword.syntax--other.syntax--phpdoc {
+  font-weight: bold;
+  font-style: italic;
+  color: #aabfaa;
+}
+
+.syntax--punctuation.syntax--definition.syntax--comment {
+  font-weight: bold;
+  font-style: italic;
+  color: #7f9f7f;
+}
+
+.syntax--keyword.syntax--other.syntax--directive {
+  font-weight: bold;
+  color: #DEDEDE;
+}
+
+.syntax--keyword.syntax--other.syntax--directive.syntax--line-number {
+  text-decoration: underline;
+  color: #89b0b0;
+}
+
+.syntax--constant.syntax--character {
+  color: #d68686;
+}
+
+.syntax--string, .syntax--string.syntax--unquoted {
+  color: #D68686;
+}
+
+.syntax--string.syntax--unquoted.syntax--heredoc {
+  color: #D6D6D6;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #8acccf;
+}
+
+.syntax--constant.syntax--language, .syntax--support.syntax--constant.syntax--core {
+  color: #53dccd;
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other, .syntax--support.syntax--constant {
+  color: #53dccd;
+}
+
+.syntax--keyword {
+  font-weight: bold;
+  color: #fffb9d;
+}
+
+.syntax--keyword.syntax--control, .syntax--meta.syntax--selector.syntax--css, .syntax--entity.syntax--other.syntax--attribute-name {
+  font-weight: bold;
+  color: #fffb9d;
+}
+
+.syntax--entity.syntax--name.syntax--module, .syntax--support.syntax--other.syntax--module {
+  font-weight: bold;
+  color: #FF8000;
+}
+
+.syntax--keyword.syntax--operator, .syntax--punctuation:not(.syntax--punctuation.syntax--definition.syntax--comment) {
+  color: #FEFED6;
+}
+
+.syntax--source.syntax--ocaml .syntax--keyword.syntax--operator.syntax--symbol.syntax--infix.syntax--floating-point {
+  text-decoration: underline;
+}
+
+.syntax--source.syntax--ocaml .syntax--keyword.syntax--operator.syntax--symbol.syntax--prefix.syntax--floating-point {
+  text-decoration: underline;
+}
+
+.syntax--storage.syntax--type, .syntax--storage.syntax--modifier, .syntax--support.syntax--type {
+  font-weight: bold;
+  color: #FFFB9D;
+}
+
+.syntax--entity.syntax--name.syntax--class.syntax--variant {
+  color: #4080A0;
+}
+
+.syntax--storage {
+}
+
+.syntax--entity.syntax--name.syntax--type, .syntax--entity.syntax--other {
+  color: #d6d6d6;
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  font-style: italic;
+  color: #cae682;
+}
+
+.syntax--storage.syntax--type.syntax--user-defined, .syntax--meta.syntax--property-list {
+  font-style: italic;
+  color: #cae682;
+}
+
+.syntax--entity.syntax--name.syntax--type, .syntax--entity.syntax--name.syntax--type.syntax--class, .syntax--entity.syntax--other.syntax--attribute-name.syntax--class.syntax--css, .syntax--support.syntax--class {
+  font-style: italic;
+  color: #cae682;
+}
+
+.syntax--variable.syntax--parameter {
+}
+
+.syntax--invalid {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: #FF5274;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--html {
+  font-weight: bold;
+  color: #D6D7AF;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #D6D7AF;
+}
+
+.syntax--punctuation.syntax--section.syntax--embedded.syntax--begin.syntax--php, .syntax--punctuation.syntax--section.syntax--embedded.syntax--end.syntax--php {
+  color: #4cc8ff;
+}
+
+.syntax--variable, .syntax--variable.syntax--parameter, .syntax--variable.syntax--other {
+  font-weight: bold;
+  color: #FED6AF;
+}
+
+.syntax--support.syntax--function.syntax--construct {
+  font-style: italic;
+  color: #dfbe95;
+}
+
+.syntax--punctuation.syntax--definition.syntax--variable {
+  font-weight: bold;
+  color: #fec994;
+}
+
+.syntax--support.syntax--function, .syntax--meta.syntax--function-name, .syntax--entity.syntax--name.syntax--function {
+  font-style: italic;
+  color: #d6a972;
+}
+
+.syntax--support.syntax--function {
+  font-style: italic;
+  color: #dfbe95;
+}
+
+.syntax--meta.syntax--brace {
+  color: #ffffff;
+}
+
+.syntax--punctuation.syntax--definition.syntax--string.syntax--begin, .syntax--punctuation.syntax--definition.syntax--string.syntax--end {
+  color: #d68686;
+}
+
+.syntax--punctuation.syntax--definition.syntax--tag.syntax--begin.syntax--html, .syntax--punctuation.syntax--definition.syntax--tag.syntax--end.syntax--html, .syntax--meta.syntax--tag.syntax--structure.syntax--any.syntax--html {
+  font-weight: bold;
+  color: rgba(254, 213, 174, 0.58);
+}
+
+.syntax--entity.syntax--name.syntax--tag.syntax--yaml {
+  font-weight: bold;
+  color: #FED6AF;
+}
+
+.syntax--punctuation.syntax--definition.syntax--entry {
+  color: #D6D6D6;
+}
+
+.syntax--keyword.syntax--other.syntax--DML.syntax--sql, .syntax--keyword.syntax--other.syntax--data-integrity.syntax--sql {
+  font-weight: bold;
+  color: #B7B7B7;
+}
+
+.syntax--source.syntax--sql, .syntax--constant.syntax--other.syntax--database-name.syntax--sql, .syntax--constant.syntax--other.syntax--table-name.syntax--sql, .syntax--keyword.syntax--operator.syntax--star {
+  font-weight: bold;
+  color: #95BFF3;
+}
+
+.syntax--source.syntax--diff {
+  color: #FFFFFF;
+  background-color: #393939;
+}
+
+.syntax--source.syntax--diff .syntax--meta.syntax--diff.syntax--comment, .syntax--source.syntax--diff .syntax--meta.syntax--toc-list.syntax--comment.syntax--diff {
+  color: #FFFFFF;
+  background-color: #9F9D15;
+}
+
+.syntax--meta.syntax--diff.syntax--header.syntax--from-file {
+  font-weight: bold;
+  color: #CA7172;
+  background-color: #393939;
+}
+
+.syntax--meta.syntax--diff.syntax--header.syntax--to-file {
+  font-weight: bold;
+  color: #60B38A;
+  background-color: #393939;
+}
+
+.syntax--meta.syntax--diff.syntax--range.syntax--unified {
+  color: #8CD0D3;
+  background-color: #393939;
+}
+
+.syntax--markup.syntax--inserted.syntax--diff {
+  color: #60B38A;
+  background-color: #393939;
+}
+
+.syntax--markup.syntax--deleted.syntax--diff {
+  color: #CA7172;
+  background-color: #393939;
+}
+
+.syntax--string.syntax--regexp {
+  color: #C76F41;
+}
+
+.syntax--string.syntax--regexp.syntax--arbitrary-repitition {
+  color: #9E6A5F;
+}
+
+.syntax--punctuation.syntax--definition.syntax--arbitrary-repitition {
+  color: rgba(255, 255, 255, 0.37);
+}
+
+.syntax--string.syntax--regexp.syntax--character-class {
+  color: #CB8E81;
+}
+
+.syntax--punctuation.syntax--definition.syntax--character-class {
+  color: rgba(255, 255, 255, 0.37);
+}
+
+.syntax--keyword.syntax--operator.syntax--class.syntax--php {
+  color: #d889de;
+}
+
+.syntax--meta.syntax--function-call.syntax--static.syntax--php {
+  font-style: italic;
+  color: #d6a972;
+}
+
+.syntax--meta.syntax--function-call.syntax--object.syntax--php {
+  font-style: italic;
+  color: #d6a972;
+}
+
+.syntax--variable.syntax--other.syntax--property.syntax--php {
+  color: #b3b784;
+}
+
+.syntax--keyword.syntax--namespace.syntax--php {
+  font-weight: bold;
+  color: #fffb9d;
+}
+
+.syntax--bracket.syntax--tag {
+  color: #0000FF;
+}
+
+.syntax--brackethighlighter.syntax--round {
+  color: #0000FF;
+}
