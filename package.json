@@ -13,5 +13,19 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "configSchema": {
+    "syntaxBackground": {
+      "title": "Syntax Background",
+      "order": 1,
+      "description": "Select a syntax background.",
+      "type": "string",
+      "enum": [
+        "dark",
+        "darker"
+      ],
+      "default": "dark"
+    }
+},
+  "main": "./lib/main"
 }
