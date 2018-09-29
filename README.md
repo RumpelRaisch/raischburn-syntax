@@ -7,10 +7,10 @@ This is a dark Zenburn like Syntax for [GitHub's](https://github.com) code edito
 
 ## Installation
 
-+   Go to Atom > Settings
-+   Click "+ Install"
-+   Search for `raischburn-syntax` and click `themes` button to search.
-+   Browse for `raischburn-syntax` and click `install`
++   go to `Atom > Settings`
++   click `+ Install`
++   search for `raischburn-syntax` and click `themes` button to search
++   browse for `raischburn-syntax` and click `install`
 
 Alternatively you can use the [Atom Package Manager](https://github.com/atom/apm):
 
@@ -24,7 +24,7 @@ apm install raischburn-syntax
 
 _To get here, go to `File > Settings` select `Themes` and click the settings icon next to `Raischburn` under `Syntax Theme` dropdown_
 
-+   __Syntax Background:__ Here you can switch between the default _dark_ background and the even _darker_ ᕙ(⇀‸↼‶)ᕗ background
++   __Syntax Background:__ Here you can switch between the default _dark_ background and the even _darker_ ᕙ(⇀‸↼‶)ᕗ background.
 
 ![Screenshot](https://raw.githubusercontent.com/RumpelRaisch/raischburn-syntax/master/screenshot-settings.png)
 
