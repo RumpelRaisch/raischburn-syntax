@@ -100,94 +100,94 @@
 .syntax--text.syntax--md {
   .syntax--md {
 
-    &.heading {
-      > .punctuation {}
-      &.empty {
-        .punctuation {}
+    &.syntax--heading {
+      > .syntax--punctuation {}
+      &.syntax--empty {
+        .syntax--punctuation {}
       }
     }
 
-    &.hr {}
-    &.quote {}
+    &.syntax--hr {}
+    &.syntax--quote {}
 
     &.syntax--link {
       color: @_variable;
 
-      &.text {}
-      &.destination {
-        .uri {}
+      &.syntax--text {}
+      &.syntax--destination {
+        .syntax--uri {}
       }
-      &.label {}
-      &.title {}
-      &.auto {
-        &.email {}
+      &.syntax--label {}
+      &.syntax--title {}
+      &.syntax--auto {
+        &.syntax--email {}
       }
-      &.reference {
-        &.abbreviation {}
+      &.syntax--reference {
+        &.syntax--abbreviation {}
       }
-      &.footnote {
-        &.reference {}
-        &.definition {}
+      &.syntax--footnote {
+        &.syntax--reference {}
+        &.syntax--definition {}
       }
     }
 
-    &.gfm {
-      &.reference {
-        .mention {}
-        .issue {}
-        .user {}
-        .repository {}
-        .sha {}
+    &.syntax--gfm {
+      &.syntax--reference {
+        .syntax--mention {}
+        .syntax--issue {}
+        .syntax--user {}
+        .syntax--repository {}
+        .syntax--sha {}
 
-        &.class {}
-        &.method {
-          &.instance {}
-          &.class {}
+        &.syntax--class {}
+        &.syntax--method {
+          &.syntax--instance {}
+          &.syntax--class {}
         }
       }
 
-      &.emoji {}
+      &.syntax--emoji {}
     }
 
-    &.constant {
-      &.entity {}
-      &.escape {}
-      &.line-break {}
+    &.syntax--constant {
+      &.syntax--entity {}
+      &.syntax--escape {}
+      &.syntax--line-break {}
     }
 
-    &.reference {
-      &.class {}
-      &.link {}
+    &.syntax--reference {
+      &.syntax--class {}
+      &.syntax--link {}
     }
 
-    &.list {
-      > .punctuation {
-        &.checkbox {}
+    &.syntax--list {
+      > .syntax--punctuation {
+        &.syntax--checkbox {}
       }
 
-      &.unordered {}
-      &.ordered {}
-      &.empty {}
+      &.syntax--unordered {}
+      &.syntax--ordered {}
+      &.syntax--empty {}
 
-      &.task {
-        &.completed {}
+      &.syntax--task {
+        &.syntax--completed {}
       }
 
-      &.definition {}
+      &.syntax--definition {}
     }
 
-    &.code {
-      &:not(.fenced) {}
+    &.syntax--code {
+      &:not(.syntax--fenced) {}
 
-      &.fenced {
-        &.info {}
+      &.syntax--fenced {
+        &.syntax--info {}
       }
 
-      &.raw {}
+      &.syntax--raw {}
     }
 
-    &.constant {
-      &.language {}
+    &.syntax--constant {
+      &.syntax--language {}
     }
 
     &.syntax--emphasis {
@@ -200,33 +200,33 @@
 
     &.syntax--strong {}
 
-    &.table {
-      > .punctuation {
-        &.alignment {}
+    &.syntax--table {
+      > .syntax--punctuation {
+        &.syntax--alignment {}
       }
     }
 
-    &.strike {}
+    &.syntax--strike {}
 
-    &.critic {
-      &.addition {}
-      &.deletion {}
-      &.comment {}
-      &.highlight {}
-      &.substitution {}
+    &.syntax--critic {
+      &.syntax--addition {}
+      &.syntax--deletion {}
+      &.syntax--comment {}
+      &.syntax--highlight {}
+      &.syntax--substitution {}
     }
 
-    &.special-attributes {}
+    &.syntax--special-attributes {}
 
-    &.attribute {
-      &.special {
-        &.other {}
-        &.id {}
-        &.class {}
+    &.syntax--attribute {
+      &.syntax--special {
+        &.syntax--other {}
+        &.syntax--id {}
+        &.syntax--class {}
       }
-      .value {
-        &.string {}
-        &.storage {}
+      .syntax--value {
+        &.syntax--string {}
+        &.syntax--storage {}
       }
     }
   }
