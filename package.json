@@ -7,7 +7,9 @@
     "syntax",
     "theme",
     "zen",
-    "zenburn"
+    "zenburn",
+    "dark",
+    "night"
   ],
   "repository": "https://github.com/RumpelRaisch/raischburn-syntax",
   "license": "MIT",
