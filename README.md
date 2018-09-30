@@ -29,6 +29,15 @@ _To get here, go to `File > Settings` select `Themes` and click the settings ico
 
 ![Screenshot](https://raw.githubusercontent.com/RumpelRaisch/raischburn-syntax/master/screenshot-settings.png)
 
+#### Commands
+
++   __open Command Palette__
+    +   `View > Toggle Command Palette`
+    +   `cmd-shift-p` (_macOS_)
+    +   `ctrl-shift-p` (_Linux/Windows_)
++   write `raischburn-syntax:dark` or `Raischburn Syntax: Dark` to activate dark theme
++   write `raischburn-syntax:darker` or `Raischburn Syntax: Darker` to activate darker theme
+
 ---
 
 ## Preview
