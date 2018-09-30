@@ -6,6 +6,11 @@ module.exports =
     # ONCE PACKAGE IS LOADED
     if self.isLoaded('raischburn-syntax')
 
+      # ADD COMMANDS TO ATOM
+      atom.commands.add 'atom-workspace',
+        "raischburn-syntax:dark":   => @setTheme('dark')
+        "raischburn-syntax:darker": => @setTheme('darker')
+
       # WHEN SYNTAX THEME CHANGES
       atom.config.onDidChange 'raischburn-syntax.syntaxBackground', (value) ->
         self.setTheme value.newValue
