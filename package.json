@@ -1,7 +1,7 @@
 {
   "name": "raischburn-syntax",
   "theme": "syntax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A darker Zenburn like Syntax for Atom.",
   "keywords": [
     "syntax",
