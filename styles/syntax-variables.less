@@ -17,8 +17,9 @@
 @syntax-result-marker-color-selected: #CCCCCC;
 
 // Gutter colors
-@syntax-gutter-text-color: #CCCCCC;
-@syntax-gutter-text-color-selected: lighten(@syntax-gutter-text-color, 10%);
+@syntax-gutter-text-color: lighten(@user-syntax-gutter-background-color, 25%);
+@syntax-gutter-text-color-selected: lighten(@user-syntax-gutter-background-color-selected, 25%);
+@syntax-gutter-text-color-current-line: @user-syntax-gutter-text-color-current-line;
 @syntax-gutter-background-color: @user-syntax-gutter-background-color;
 @syntax-gutter-background-color-selected: @user-syntax-gutter-background-color-selected;
 @syntax-gutter-background-color-current-line: @user-syntax-gutter-background-color-current-line;
